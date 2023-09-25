@@ -1,0 +1,14 @@
+---
+title: "Brasil Document Classifier"
+description: Api escrita em python para realizar classificação de imagens de documentos utilizando um modelo de machine learning que eu mesmo criei.
+repository: nevesw/BrasilDocumentClassifier
+date: "2020-11-23"
+published: true
+  
+---
+
+Uma api escrita em python utilizando flask, que funciona da seguinte forma recebe como input uma imagem de um documento e retorna uma porcentagem de 0% a 100% do quanto aquele documento se aproxima das classes suportadas. 
+Os seguintes tipos de documentos são suportados pelo classificador: class_names = np.array(['cnh', 'cpf', 'rgfrente', 'rgverso']). Eu mesmo realizei a coleta, analise e preparação dos dados para treinamento e validação.
+Para realização do treinamento e geração do modelo de classificador utilizei as bibliotecas tensorflow e keras e o poder computacional nescessário ficou por 
+conta do serviço da Google o Google Colab.
+
