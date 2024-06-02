@@ -21,7 +21,7 @@ export default async function ProjectsPage() {
 	}, {} as Record<string, number>);
 
 	const featured = allProjects.find((project) => project.slug === "bookcollege")!;
-	const top2 = allProjects.find((project) => project.slug === "burguerbox")!;
+	const top2 = allProjects.find((project) => project.slug === "fiaptechchallenge")!;
 	const top3 = allProjects.find((project) => project.slug === "brasildocumentclassifier")!;
 	const sorted = allProjects
 		.filter((p) => p.published)
